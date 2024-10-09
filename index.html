@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>FinansYolu</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small
+                            class="fa fa-map-marker-alt text-primary me-2"
+                        ></small>
+                        <small
+                            >Halaskargazi, Vali Konağı Cd. No: 19, 34367
+                            Şişli/İstanbul, Türkiye</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small>Paz - Cuma : 09.00 - 21.00</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small
+                            class="fa fa-phone-alt text-primary me-2"
+                        ></small>
+                        <small>+90 538 547 89 86</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"
+            >
+                <h2 class="m-0 text-primary">FinansYolu</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Anasayfa</a
+                    >
+                    <a href="about.html" class="nav-item nav-link"
+                        >Hakkımızda</a
+                    >
+                    <a href="service.html" class="nav-item nav-link"
+                        >Hizmetler</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Görüşler</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >İletişim</a
+                    >
+                </div>
+                <a
+                    href="contact.html"
+                    class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+                    >Teklif Al<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+            </div>
+        </nav>
+
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Mali Planlama Nedir?
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Mali planlama, kişisel veya kurumsal
+                                        mali hedeflere ulaşmak için stratejik
+                                        bir yol haritası oluşturma sürecidir.
+                                        Gelir, gider ve tasarruf hedefleri
+                                        belirleyerek, gelecekteki mali
+                                        istikrarınızı sağlamayı amaçlar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Bütçe Yönetimi
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Bütçe yönetimi, gelir ve giderlerinizi
+                                        dengeleyerek mali durumunuzu kontrol
+                                        altında tutmanıza yardımcı olur.
+                                        Harcamalarınızı planlamak ve tasarruf
+                                        hedeflerinizi gerçekleştirmek için
+                                        etkili bir bütçe oluşturmanın yollarını
+                                        öğrenin.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Yatırım ve Tasarruf Stratejileri
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Yatırım ve tasarruf stratejileri,
+                                        paranızı büyütmek ve gelecekteki
+                                        ihtiyaçlarınızı karşılamak için
+                                        önemlidir. Farklı yatırım araçları
+                                        hakkında bilgi edinin ve risk
+                                        toleransınıza uygun stratejiler
+                                        geliştirin.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">3453</h1>
+                        </div>
+                        <h5 class="mb-3">Mutlu Müşteriler</h5>
+                        <span>
+                            %95 müşteri memnuniyeti oranı ile, finansal planlama
+                            ve eğitim hizmetlerimizden yararlanan bireyler,
+                            hedeflerine ulaşma konusunda kendilerini daha
+                            güvende hissediyorlar.
+                        </span>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">234</h1>
+                        </div>
+                        <h5 class="mb-3">Tamamlanan Projeler</h5>
+                        <span>
+                            Son 5 yıl içinde, 300'den fazla mali planlama
+                            projesi başarıyla tamamlandı. Her projede kişisel
+                            ihtiyaçlara yönelik özelleştirilmiş stratejiler
+                            geliştirilmiştir.</span
+                        >
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">813</h1>
+                        </div>
+                        <h5 class="mb-3">Kazanılan Ödüller</h5>
+                        <span>
+                            Sektördeki başarılarımızı pekiştiren 10'dan fazla
+                            ödül kazandık. Bu ödüller, mükemmel hizmet sunma ve
+                            müşteri memnuniyetini sağlama konusundaki
+                            kararlılığımızı göstermektedir.</span
+                        >
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">56</h1>
+                        </div>
+                        <h5 class="mb-3">Uzman Çalışanlar</h5>
+                        <span>
+                            Ekibimiz, finansal planlama ve eğitim alanında
+                            deneyimli 50'den fazla uzman çalışandan
+                            oluşmaktadır. Her bir uzman, müşterilerin
+                            ihtiyaçlarına yönelik en iyi çözümleri sunma
+                            yeteneğine sahiptir.</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Start -->
+
+        <!-- About Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 ps-lg-0 wow fadeIn"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <h6 class="text-primary">
+                                Stratejik ve Kişiye Özel Yaklaşım
+                            </h6>
+                            <h1 class="mb-4">
+                                Mali Geleceğinizi Planlama Sürecimiz
+                            </h1>
+                            <p>
+                                Finansal planlama ve eğitim sürecimiz,
+                                bireylerin ve ailelerin ihtiyaçlarını ve
+                                hedeflerini anlamakla başlar. Her müşterimizin
+                                benzersiz olduğunu kabul ederek, kişiye özel
+                                stratejiler geliştirmekteyiz. İlk adım olarak,
+                                mevcut mali durumunuzu detaylı bir şekilde
+                                analiz ederiz. Bu analiz, gelirlerinizi,
+                                giderlerinizi, varlıklarınızı ve borçlarınızı
+                                kapsar, böylece mali durumunuzu net bir şekilde
+                                ortaya koyar. Ardından, kısa ve uzun vadeli
+                                hedeflerinizi belirleriz. Bu hedefler, emeklilik
+                                planlaması, yatırım hedefleri veya eğitim fonu
+                                oluşturma gibi çeşitli alanlarda olabilir. Bu
+                                aşamada, hedeflerinize ulaşmanızı sağlamak için
+                                özelleştirilmiş bir yol haritası oluştururuz. Bu
+                                yol haritası, harcama alışkanlıklarınızı gözden
+                                geçirmeyi, tasarruf yöntemleri geliştirmeyi ve
+                                yatırım fırsatlarını değerlendirmeyi içerir.
+                                Eğitim programlarımız, finansal
+                                okuryazarlığınızı artırmayı ve bilinçli kararlar
+                                almanızı sağlamayı amaçlar. Bilgiye dayalı
+                                kararlar almanın, finansal sağlığınız üzerinde
+                                önemli bir etkisi olduğunu biliyoruz. Bu
+                                nedenle, düzenli seminerler, atölye çalışmaları
+                                ve bire bir danışmanlık hizmetleri sunuyoruz.
+                                Müşterilerimize, finansal kavramlar hakkında
+                                derinlemesine bilgi vererek, daha sağlam ve
+                                sürdürülebilir mali kararlar almalarına yardımcı
+                                olmayı hedefliyoruz. Süreklilik arz eden destek
+                                anlayışımızla, mali durumunuzu düzenli olarak
+                                gözden geçirir ve gerektiğinde stratejilerinizi
+                                güncelleriz. Müşterilerimize güvenli bir mali
+                                gelecek sunmak için yanlarında olmayı ve
+                                ihtiyaçlarına göre esnek çözümler geliştirmeyi
+                                taahhüt ediyoruz. Bu sayede, mali hedeflerinize
+                                ulaşırken, finansal huzur ve güven içinde
+                                ilerlemenizi sağlıyoruz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6 class="text-primary">Neden Bizi Tercih Etmelisiniz?</h6>
+                    <h1 class="mb-4">Özelliklerimiz ve Faydalarımız</h1>
+                    <p>
+                        Mali planlama ve eğitim alanındaki benzersiz
+                        özelliklerimiz, müşterilerimize en iyi hizmeti sunma
+                        amacımızı desteklemektedir. Sunduğumuz çözümler,
+                        finansal hedeflerinize ulaşmanızı kolaylaştırırken, aynı
+                        zamanda finansal okuryazarlığınızı artırmayı da amaçlar.
+                        Müşteri odaklı yaklaşımımız, her bireyin ihtiyaçlarına
+                        ve hedeflerine özel çözümler sunmamızı sağlar. İşte
+                        sunduğumuz bazı temel özellikler:
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-1.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">
+                                    Kişiye Özel Danışmanlık
+                                </h4>
+                                <p>
+                                    Her müşterimizin mali durumu ve hedefleri
+                                    farklıdır. Uzman ekibimiz, ihtiyaçlarınıza
+                                    yönelik özel çözümler geliştirir ve size
+                                    bire bir danışmanlık hizmeti sunar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-2.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">Eğitim Programları</h4>
+                                <p>
+                                    Finansal okuryazarlığınızı artırmak için
+                                    kapsamlı eğitim programları düzenliyoruz.
+                                    Seminerler, atölye çalışmaları ve çevrimiçi
+                                    kaynaklar ile bilgiye erişiminizi
+                                    kolaylaştırıyoruz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-3.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">
+                                    Sürekli Destek ve Güncelleme
+                                </h4>
+                                <p>
+                                    Mali planlamanızın etkinliğini artırmak için
+                                    düzenli olarak durumunuzu gözden geçiririz.
+                                    Stratejilerinizi güncelleyerek değişen
+                                    koşullara uyum sağlamanıza yardımcı oluruz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <h6 class="text-primary">
+                                Neden Bizi Tercih Etmelisiniz?
+                            </h6>
+                            <h1 class="mb-4">Sizin İçin En İyi Seçim</h1>
+                            <p class="mb-4 pb-2">
+                                Finansal planlama ve eğitim alanında sunduğumuz
+                                hizmetler, müşteri memnuniyetini öncelikli hedef
+                                olarak belirlemektedir. Bizimle çalışmayı
+                                seçtiğinizde, yalnızca bir danışmanlık hizmeti
+                                almakla kalmaz, aynı zamanda finansal
+                                geleceğinizi güvence altına alacak bir ortak
+                                kazanmış olursunuz. Uzman ekibimiz, sektördeki
+                                en son gelişmeleri takip ederek size en güncel
+                                ve etkili stratejileri sunar. Her müşterinin
+                                ihtiyaçları ve hedefleri farklı olduğundan, size
+                                özel çözümler geliştiriyoruz. Kapsamlı eğitim
+                                programlarımız sayesinde, finansal
+                                okuryazarlığınızı artırarak bilinçli kararlar
+                                almanıza yardımcı oluyoruz. Güvenilir, şeffaf ve
+                                etkili bir hizmet anlayışımızla, mali
+                                hedeflerinize ulaşmanızı sağlamak için
+                                buradayız.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-check text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Sektörler Arası</p>
+                                            <h5 class="mb-0">Çözümler</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-user-check text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Özelleştirilmiş</p>
+                                            <h5 class="mb-0">Çözümler</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-drafting-compass text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Mükemmelliğe</p>
+                                            <h5 class="mb-0">Taahhüt</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-headphones text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">İşbirlikçi</p>
+                                            <h5 class="mb-0">Yaklaşım</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/why-choose.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Quote Start -->
+        <div class="container-fluid bg-light overflow-hidden mt-5 px-lg-0">
+            <div class="container quote px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 ps-lg-0 wow fadeIn"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/quote.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 quote-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <h6 class="text-primary">Ücretsiz Teklif</h6>
+                            <h1 class="mb-4">Ücretsiz Teklif Alın</h1>
+                            <p class="mb-4 pb-2">
+                                Finansal hedeflerinizi gerçekleştirmek için
+                                doğru adımları atmanıza yardımcı olmak
+                                istiyoruz. Ücretsiz teklif alarak,
+                                ihtiyaçlarınıza uygun özelleştirilmiş finansal
+                                planlama ve eğitim hizmetlerimiz hakkında bilgi
+                                edinebilirsiniz. Uzman ekibimizle birlikte,
+                                sizin için en uygun stratejileri belirlemek ve
+                                mali geleceğinizi güvence altına almak için ilk
+                                adımı atın. Hızla geri dönüş alarak, bütçeniz ve
+                                hedefleriniz doğrultusunda en iyi çözümü
+                                bulmanıza yardımcı olalım!
+                            </p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            placeholder="Adınız"
+                                            style="height: 55px"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0"
+                                            placeholder="E-posta Adresiniz"
+                                            id="email"
+                                            style="height: 55px"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea
+                                            class="form-control border-0"
+                                            placeholder="Özel Not"
+                                        ></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary rounded-pill py-3 px-5"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Gönder
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quote End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">FinansYolu</h5>
+                        <p>
+                            Finansal geleceğinizi güvence altına almak için
+                            buradayız! Uzman ekibimiz, kişisel ve kurumsal mali
+                            hedeflerinize ulaşmanıza yardımcı olmak için
+                            özelleştirilmiş stratejiler sunmaktadır. Sunduğumuz
+                            eğitim programları ile finansal okuryazarlığınızı
+                            artırarak, bilinçli kararlar almanızı sağlıyoruz.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Adres</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Halaskargazi, Vali Konağı Cd. No: 19, 34367
+                            Şişli/İstanbul, Türkiye
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+90 538 547 89
+                            86
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >finans_yolu@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Hızlı Bağlantılar</h5>
+                        <a class="btn btn-link" href="index.html">Ana Sayfa</a>
+                        <a class="btn btn-link" href="about.html">Hakkımızda</a>
+                        <a class="btn btn-link" href="contact.html">İletişim</a>
+                        <a class="btn btn-link" href="service.html"
+                            >Hizmetlerimiz</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Kullanım Şartları</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Gizlilik Politikası</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Proje Galerisi</h5>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Uncomment the newsletter section if needed -->
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Bülten</h5>
+                        <p>
+                            Yatırım trendlerini takip edin ve piyasa analizleriyle ilgili en son güncellemeleri alın. Bültenimize abone olun!
+                        </p>
+                        <div class="position-relative mx-auto" style="max-width: 400px">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="E-posta adresiniz" />
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+                                Abone Ol
+                            </button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Çerez İzni</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Bu web sitesi, size daha üstün ve daha ilgili bir tarayıcı
+                    deneyimi sağlamak için çerezler kullanmaktadır.
+                    <a>Daha fazla bilgi edinin...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Kabul Et</button>
+                <button class="cookie-button" id="declineBtn">Reddet</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
